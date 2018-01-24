@@ -1,0 +1,74 @@
+
+###################### twitter ############################
+
+Twitter is a great source for sentiment data and social media mining 
+furthermore it is quite easy to get significant amounts of data to be 
+able to scrape data from Twitter you need a standard Twitter account 
+and you need to update it to a developer account
+-note that Twitter limits the amount of searches you can perform 
+(15min: 15 scrapes)
+
+type: getCurRateLimitInfo() to see which limits reached
+
+
+create an application at https://apps.twitter.com
+
+> application settings > fill in details
+                       > give a bogus website (like google or yahoo etc)
+
+> keys and access tokens  > consumer key
+                          > consumer secret
+                          > access token
+                          > access token secret
+
+(copy and paste all this info into a text file)
+
+download.file(url="http://curl.haxx.se/ca/cacert.pem",
+destfile="C:/~your Desktop path/cacert.pem", method="auto")
+
+
+
+###################### facebook ###########################
+
+ get authentication> http://developers.facebook.com/apps
+
+                   > add a new app > choose website (app for pages) > give a name for your app
+                    >click "create app id"
+                    > appid = yourid
+                    > appsecret = your secret
+
+(copy and paste all this info into a text file)
+
+create an application at  https://developers.facebook.com/tools/explorer
+
+a message will appear > copy the URL and go to setting of the facebook app. 
+click settings tab on left side and choose "add platform" (at bottom)
+add the url in the field "site url" and save
+
+tools & support
+
+> get token (token will expire > but can keep generating)
+> left menu  click submit > search for fields > click to add more fields
+                          > click submit
+
+> application settings
+> create access token and query visually
+
+(copy access token and query)
+
+
+
+##################### goggle + ############################
+
+https://console.developers.google.com/apis
+select Google+
+enable google+ API
+credentials > create API key
+
+(copy the API key)
+
+
+
+#################### youtube ################################
+
+ 
